@@ -1,5 +1,6 @@
 using System.IO;
 using System.Threading.Tasks;
+using Duplicates.Core;
 using Duplicates.Core.Interfaces;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;

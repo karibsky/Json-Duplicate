@@ -12,5 +12,11 @@
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Duplicates.Core\Duplicates.Core.csproj" />
+      <ProjectReference Include="..\Duplicates.Data\Duplicates.Data.csproj" />
+      <ProjectReference Include="..\Duplicates.Services\Duplicates.Services.csproj" />
+    </ItemGroup>
+
 
 </Project>
