@@ -26,6 +26,12 @@ namespace Duplicates.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddVersionedApiExplorer(o =>
+            {
+                o.GroupNameFormat = "'v'VVV";
+                o.SubstituteApiVersionInUrl = true;
+            });
+            services.AddApiVersioning();
             services.AddSwaggerGen();
         }
 
